@@ -1,0 +1,3 @@
+[submodule "LaunchPad Example App/Resources/launchpad-ios-sdk"]
+	path = LaunchPad Example App/Resources/launchpad-ios-sdk
+	url = git@github.com:launchpadio/launchpad-ios-sdk.git

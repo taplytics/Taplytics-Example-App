@@ -1,2 +1,0 @@
-LaunchPad-Example-App
-=====================
