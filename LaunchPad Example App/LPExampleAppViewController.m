@@ -13,19 +13,9 @@
 
 @implementation LPExampleAppViewController
 
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-}
-
 - (void)viewWillAppear:(BOOL)animated {
-    [[LaunchPadManager sharedManager] setupViewController:self forViewKey:@"home"];
-}
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    [super viewWillAppear:animated];
+    self.viewKey = @"home";
 }
 
 @end
