@@ -15,7 +15,7 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    self.viewKey = @"home";
+    self.viewKey = @"LPExampleAppViewController";
 }
 
 @end

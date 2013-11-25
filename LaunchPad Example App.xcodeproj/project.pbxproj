@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0F56E79B1830A18D00459632 /* LaunchPad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F56E79A1830A18D00459632 /* LaunchPad.framework */; };
+		0F60B48B183D6F54003FDF14 /* AllElementsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F60B48A183D6F54003FDF14 /* AllElementsViewController.m */; };
+		0F60B48E183D70AA003FDF14 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F60B48D183D70AA003FDF14 /* WebViewController.m */; };
+		0F8F20131843C50800C28A0D /* StyleExamplesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F8F20121843C50800C28A0D /* StyleExamplesViewController.m */; };
+		0F8F2026184404F700C28A0D /* LaunchPad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F8F2025184404F700C28A0D /* LaunchPad.framework */; };
 		0FE54F7417F0BE97002BD567 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FE54F7317F0BE97002BD567 /* CoreData.framework */; };
 		0FE54F7617F0BEB1002BD567 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FE54F7517F0BEB1002BD567 /* libz.dylib */; };
 		93187B2A181C59AB00372ADF /* MPCJSONDataSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 93187B1D181C59AB00372ADF /* MPCJSONDataSerializer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -37,7 +40,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0F56E79A1830A18D00459632 /* LaunchPad.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LaunchPad.framework; sourceTree = "<group>"; };
+		0F60B489183D6F54003FDF14 /* AllElementsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllElementsViewController.h; sourceTree = "<group>"; };
+		0F60B48A183D6F54003FDF14 /* AllElementsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllElementsViewController.m; sourceTree = "<group>"; };
+		0F60B48C183D70AA003FDF14 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		0F60B48D183D70AA003FDF14 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		0F8F20111843C50800C28A0D /* StyleExamplesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StyleExamplesViewController.h; sourceTree = "<group>"; };
+		0F8F20121843C50800C28A0D /* StyleExamplesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StyleExamplesViewController.m; sourceTree = "<group>"; };
+		0F8F2025184404F700C28A0D /* LaunchPad.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LaunchPad.framework; sourceTree = "<group>"; };
 		0FE54F7317F0BE97002BD567 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		0FE54F7517F0BEB1002BD567 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		93187B1C181C59AB00372ADF /* MPCJSONDataSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPCJSONDataSerializer.h; sourceTree = "<group>"; };
@@ -97,7 +106,7 @@
 				93F7DFC117E4047400FC365F /* CoreTelephony.framework in Frameworks */,
 				93F7DF5817E3DA3B00FC365F /* AdSupport.framework in Frameworks */,
 				93F7DF5617E3A4F200FC365F /* libicucore.dylib in Frameworks */,
-				0F56E79B1830A18D00459632 /* LaunchPad.framework in Frameworks */,
+				0F8F2026184404F700C28A0D /* LaunchPad.framework in Frameworks */,
 				93F7DF5417E3A4EB00FC365F /* Security.framework in Frameworks */,
 				93F7DF5217E3A4DA00FC365F /* CFNetwork.framework in Frameworks */,
 				93F7DF1217E388C000FC365F /* CoreGraphics.framework in Frameworks */,
@@ -206,7 +215,7 @@
 		93F7DF0E17E388C000FC365F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0F56E79A1830A18D00459632 /* LaunchPad.framework */,
+				0F8F2025184404F700C28A0D /* LaunchPad.framework */,
 				0FE54F7517F0BEB1002BD567 /* libz.dylib */,
 				0FE54F7317F0BE97002BD567 /* CoreData.framework */,
 				93F7DFC217E4048000FC365F /* SystemConfiguration.framework */,
@@ -231,10 +240,16 @@
 				93F7DF1F17E388C000FC365F /* LPExampleAppAppDelegate.m */,
 				93F7DF2417E388C000FC365F /* LPExampleAppViewController.h */,
 				93F7DF2517E388C000FC365F /* LPExampleAppViewController.m */,
-				93F7DF2717E388C000FC365F /* Images.xcassets */,
-				93F7DF1617E388C000FC365F /* Supporting Files */,
+				0F8F20111843C50800C28A0D /* StyleExamplesViewController.h */,
+				0F8F20121843C50800C28A0D /* StyleExamplesViewController.m */,
 				93187B42181C73B800372ADF /* ExampleCollectionViewController.h */,
 				93187B43181C73B800372ADF /* ExampleCollectionViewController.m */,
+				0F60B489183D6F54003FDF14 /* AllElementsViewController.h */,
+				0F60B48A183D6F54003FDF14 /* AllElementsViewController.m */,
+				0F60B48C183D70AA003FDF14 /* WebViewController.h */,
+				0F60B48D183D70AA003FDF14 /* WebViewController.m */,
+				93F7DF2717E388C000FC365F /* Images.xcassets */,
+				93F7DF1617E388C000FC365F /* Supporting Files */,
 			);
 			path = "LaunchPad Example App";
 			sourceTree = "<group>";
@@ -328,13 +343,16 @@
 			files = (
 				93187B2C181C59AB00372ADF /* MPCSerializedJSONData.m in Sources */,
 				93187B2A181C59AB00372ADF /* MPCJSONDataSerializer.m in Sources */,
+				0F8F20131843C50800C28A0D /* StyleExamplesViewController.m in Sources */,
 				93187B2D181C59AB00372ADF /* NSData+MPBase64.m in Sources */,
 				93187B44181C73B800372ADF /* ExampleCollectionViewController.m in Sources */,
 				93187B2E181C59AB00372ADF /* ODIN.m in Sources */,
 				93F7DF2617E388C000FC365F /* LPExampleAppViewController.m in Sources */,
 				93F7DF1C17E388C000FC365F /* main.m in Sources */,
+				0F60B48E183D70AA003FDF14 /* WebViewController.m in Sources */,
 				93F7DF2017E388C000FC365F /* LPExampleAppAppDelegate.m in Sources */,
 				93187B2F181C59AB00372ADF /* Mixpanel.m in Sources */,
+				0F60B48B183D6F54003FDF14 /* AllElementsViewController.m in Sources */,
 				93187B2B181C59AB00372ADF /* MPCJSONSerializer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -444,9 +462,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
-					"\\\"$SRCROOT/LaunchPad\\ Example\\ App\\\"/**",
+					"\\\\\\\"$SRCROOT/LaunchPad\\\\\\ Example\\\\\\ App\\\\\\\"/**",
 					"$(inherited)",
 					"/Users/jonathannorris/Dropbox/gitRepos/LaunchPad-Example-App",
+					"/Users/jonathannorris/Dropbox/gitRepos/launchpad-ios-sdk",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LaunchPad Example App/LaunchPad Example App-Prefix.pch";
@@ -473,9 +492,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
-					"\\\"$SRCROOT/LaunchPad\\ Example\\ App\\\"/**",
+					"\\\\\\\"$SRCROOT/LaunchPad\\\\\\ Example\\\\\\ App\\\\\\\"/**",
 					"$(inherited)",
 					"/Users/jonathannorris/Dropbox/gitRepos/LaunchPad-Example-App",
+					"/Users/jonathannorris/Dropbox/gitRepos/launchpad-ios-sdk",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LaunchPad Example App/LaunchPad Example App-Prefix.pch";
