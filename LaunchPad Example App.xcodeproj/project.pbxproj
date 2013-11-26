@@ -461,12 +461,7 @@
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				FRAMEWORK_SEARCH_PATHS = (
-					"\\\\\\\"$SRCROOT/LaunchPad\\\\\\ Example\\\\\\ App\\\\\\\"/**",
-					"$(inherited)",
-					"/Users/jonathannorris/Dropbox/gitRepos/LaunchPad-Example-App",
-					"/Users/jonathannorris/Dropbox/gitRepos/launchpad-ios-sdk",
-				);
+				FRAMEWORK_SEARCH_PATHS = "\"$SRCROOT\"/**";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LaunchPad Example App/LaunchPad Example App-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -491,12 +486,7 @@
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				FRAMEWORK_SEARCH_PATHS = (
-					"\\\\\\\"$SRCROOT/LaunchPad\\\\\\ Example\\\\\\ App\\\\\\\"/**",
-					"$(inherited)",
-					"/Users/jonathannorris/Dropbox/gitRepos/LaunchPad-Example-App",
-					"/Users/jonathannorris/Dropbox/gitRepos/launchpad-ios-sdk",
-				);
+				FRAMEWORK_SEARCH_PATHS = "\"$SRCROOT\"/**";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LaunchPad Example App/LaunchPad Example App-Prefix.pch";
 				INFOPLIST_FILE = "LaunchPad Example App/LaunchPad Example App-Info.plist";
