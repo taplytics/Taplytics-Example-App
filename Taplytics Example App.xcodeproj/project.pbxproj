@@ -20,14 +20,6 @@
 		0F16A8FF187DE99E001C5269 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F16A8FE187DE99E001C5269 /* AdSupport.framework */; };
 		0F16A901187DE9A4001C5269 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F16A900187DE9A4001C5269 /* SystemConfiguration.framework */; };
 		0F16A903187DE9AA001C5269 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F16A902187DE9AA001C5269 /* libicucore.dylib */; };
-		0F16AA75187DEAEC001C5269 /* libFlurry_4.2.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F16A921187DEAEB001C5269 /* libFlurry_4.2.3.a */; };
-		0F16AB53187DEAEC001C5269 /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F16AA30187DEAEB001C5269 /* libGoogleAnalyticsServices.a */; };
-		0F16AB70187DEAEC001C5269 /* MPCJSONDataSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F16AA67187DEAEC001C5269 /* MPCJSONDataSerializer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		0F16AB71187DEAEC001C5269 /* MPCJSONSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F16AA69187DEAEC001C5269 /* MPCJSONSerializer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		0F16AB72187DEAEC001C5269 /* MPCSerializedJSONData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F16AA6B187DEAEC001C5269 /* MPCSerializedJSONData.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		0F16AB73187DEAEC001C5269 /* NSData+MPBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F16AA6E187DEAEC001C5269 /* NSData+MPBase64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		0F16AB74187DEAEC001C5269 /* ODIN.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F16AA71187DEAEC001C5269 /* ODIN.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		0F16AB75187DEAEC001C5269 /* Mixpanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F16AA73187DEAEC001C5269 /* Mixpanel.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		0F16AB84187DEC5C001C5269 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F16AB83187DEC5C001C5269 /* CoreData.framework */; };
 		0F16AB86187DEC64001C5269 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F16AB85187DEC64001C5269 /* libz.dylib */; };
 		0F16AB9C187DF398001C5269 /* AllElementsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F16AB93187DF398001C5269 /* AllElementsViewController.m */; };
@@ -57,27 +49,6 @@
 		0F16A8FE187DE99E001C5269 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		0F16A900187DE9A4001C5269 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		0F16A902187DE9AA001C5269 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
-		0F16A920187DEAEB001C5269 /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flurry.h; sourceTree = "<group>"; };
-		0F16A921187DEAEB001C5269 /* libFlurry_4.2.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry_4.2.3.a; sourceTree = "<group>"; };
-		0F16A9E7187DEAEB001C5269 /* GAI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAI.h; sourceTree = "<group>"; };
-		0F16A9E8187DEAEB001C5269 /* GAIDictionaryBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIDictionaryBuilder.h; sourceTree = "<group>"; };
-		0F16A9E9187DEAEB001C5269 /* GAIFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIFields.h; sourceTree = "<group>"; };
-		0F16A9EA187DEAEB001C5269 /* GAILogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAILogger.h; sourceTree = "<group>"; };
-		0F16A9EB187DEAEB001C5269 /* GAITrackedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITrackedViewController.h; sourceTree = "<group>"; };
-		0F16A9EC187DEAEB001C5269 /* GAITracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITracker.h; sourceTree = "<group>"; };
-		0F16AA30187DEAEB001C5269 /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGoogleAnalyticsServices.a; path = ../../libGoogleAnalyticsServices.a; sourceTree = "<group>"; };
-		0F16AA66187DEAEC001C5269 /* MPCJSONDataSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPCJSONDataSerializer.h; sourceTree = "<group>"; };
-		0F16AA67187DEAEC001C5269 /* MPCJSONDataSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPCJSONDataSerializer.m; sourceTree = "<group>"; };
-		0F16AA68187DEAEC001C5269 /* MPCJSONSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPCJSONSerializer.h; sourceTree = "<group>"; };
-		0F16AA69187DEAEC001C5269 /* MPCJSONSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPCJSONSerializer.m; sourceTree = "<group>"; };
-		0F16AA6A187DEAEC001C5269 /* MPCSerializedJSONData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPCSerializedJSONData.h; sourceTree = "<group>"; };
-		0F16AA6B187DEAEC001C5269 /* MPCSerializedJSONData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPCSerializedJSONData.m; sourceTree = "<group>"; };
-		0F16AA6D187DEAEC001C5269 /* NSData+MPBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+MPBase64.h"; sourceTree = "<group>"; };
-		0F16AA6E187DEAEC001C5269 /* NSData+MPBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+MPBase64.m"; sourceTree = "<group>"; };
-		0F16AA70187DEAEC001C5269 /* ODIN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ODIN.h; sourceTree = "<group>"; };
-		0F16AA71187DEAEC001C5269 /* ODIN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ODIN.m; sourceTree = "<group>"; };
-		0F16AA72187DEAEC001C5269 /* Mixpanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mixpanel.h; sourceTree = "<group>"; };
-		0F16AA73187DEAEC001C5269 /* Mixpanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mixpanel.m; sourceTree = "<group>"; };
 		0F16AB83187DEC5C001C5269 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		0F16AB85187DEC64001C5269 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		0F16AB92187DF398001C5269 /* AllElementsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllElementsViewController.h; sourceTree = "<group>"; };
@@ -104,12 +75,10 @@
 				0F16AB84187DEC5C001C5269 /* CoreData.framework in Frameworks */,
 				0F16A903187DE9AA001C5269 /* libicucore.dylib in Frameworks */,
 				0F16A901187DE9A4001C5269 /* SystemConfiguration.framework in Frameworks */,
-				0F16AB53187DEAEC001C5269 /* libGoogleAnalyticsServices.a in Frameworks */,
 				0F16A8FF187DE99E001C5269 /* AdSupport.framework in Frameworks */,
 				0F16A8FD187DE998001C5269 /* CoreTelephony.framework in Frameworks */,
 				0F16A8FB187DE991001C5269 /* Security.framework in Frameworks */,
 				0F16A8F9187DE98B001C5269 /* CFNetwork.framework in Frameworks */,
-				0F16AA75187DEAEC001C5269 /* libFlurry_4.2.3.a in Frameworks */,
 				0F16A8CC187DE981001C5269 /* CoreGraphics.framework in Frameworks */,
 				0F16A8CE187DE981001C5269 /* UIKit.framework in Frameworks */,
 				0F16A8CA187DE981001C5269 /* Foundation.framework in Frameworks */,
@@ -158,7 +127,6 @@
 		0F16A8CF187DE981001C5269 /* Taplytics Example App */ = {
 			isa = PBXGroup;
 			children = (
-				0F16A91C187DEAEB001C5269 /* Resources */,
 				0F16A916187DEA60001C5269 /* View Controllers */,
 				0F16ABA2187DFC71001C5269 /* Main.storyboard */,
 				0F16A8D8187DE981001C5269 /* AppDelegate.h */,
@@ -195,93 +163,6 @@
 				0F16AB9B187DF398001C5269 /* WebViewController.m */,
 			);
 			name = "View Controllers";
-			sourceTree = "<group>";
-		};
-		0F16A91C187DEAEB001C5269 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				0F16AA63187DEAEC001C5269 /* Mixpanel */,
-				0F16A9E6187DEAEB001C5269 /* Google */,
-				0F16A91F187DEAEB001C5269 /* Flurry */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		0F16A91F187DEAEB001C5269 /* Flurry */ = {
-			isa = PBXGroup;
-			children = (
-				0F16A920187DEAEB001C5269 /* Flurry.h */,
-				0F16A921187DEAEB001C5269 /* libFlurry_4.2.3.a */,
-			);
-			name = Flurry;
-			path = "Flurry iPhone SDK viPhone 4.2.3/Flurry-iOS-4.2.3/Flurry";
-			sourceTree = "<group>";
-		};
-		0F16A9E6187DEAEB001C5269 /* Google */ = {
-			isa = PBXGroup;
-			children = (
-				0F16A9E7187DEAEB001C5269 /* GAI.h */,
-				0F16A9E8187DEAEB001C5269 /* GAIDictionaryBuilder.h */,
-				0F16A9E9187DEAEB001C5269 /* GAIFields.h */,
-				0F16A9EA187DEAEB001C5269 /* GAILogger.h */,
-				0F16A9EB187DEAEB001C5269 /* GAITrackedViewController.h */,
-				0F16A9EC187DEAEB001C5269 /* GAITracker.h */,
-				0F16AA30187DEAEB001C5269 /* libGoogleAnalyticsServices.a */,
-			);
-			name = Google;
-			path = GoogleAnalyticsServicesiOS_3.02/GoogleAnalytics/Library;
-			sourceTree = "<group>";
-		};
-		0F16AA63187DEAEC001C5269 /* Mixpanel */ = {
-			isa = PBXGroup;
-			children = (
-				0F16AA64187DEAEC001C5269 /* Library */,
-				0F16AA72187DEAEC001C5269 /* Mixpanel.h */,
-				0F16AA73187DEAEC001C5269 /* Mixpanel.m */,
-			);
-			name = Mixpanel;
-			path = mixpanel/Mixpanel;
-			sourceTree = "<group>";
-		};
-		0F16AA64187DEAEC001C5269 /* Library */ = {
-			isa = PBXGroup;
-			children = (
-				0F16AA65187DEAEC001C5269 /* JSON */,
-				0F16AA6C187DEAEC001C5269 /* NSData_Base64 */,
-				0F16AA6F187DEAEC001C5269 /* ODIN */,
-			);
-			path = Library;
-			sourceTree = "<group>";
-		};
-		0F16AA65187DEAEC001C5269 /* JSON */ = {
-			isa = PBXGroup;
-			children = (
-				0F16AA66187DEAEC001C5269 /* MPCJSONDataSerializer.h */,
-				0F16AA67187DEAEC001C5269 /* MPCJSONDataSerializer.m */,
-				0F16AA68187DEAEC001C5269 /* MPCJSONSerializer.h */,
-				0F16AA69187DEAEC001C5269 /* MPCJSONSerializer.m */,
-				0F16AA6A187DEAEC001C5269 /* MPCSerializedJSONData.h */,
-				0F16AA6B187DEAEC001C5269 /* MPCSerializedJSONData.m */,
-			);
-			path = JSON;
-			sourceTree = "<group>";
-		};
-		0F16AA6C187DEAEC001C5269 /* NSData_Base64 */ = {
-			isa = PBXGroup;
-			children = (
-				0F16AA6D187DEAEC001C5269 /* NSData+MPBase64.h */,
-				0F16AA6E187DEAEC001C5269 /* NSData+MPBase64.m */,
-			);
-			path = NSData_Base64;
-			sourceTree = "<group>";
-		};
-		0F16AA6F187DEAEC001C5269 /* ODIN */ = {
-			isa = PBXGroup;
-			children = (
-				0F16AA70187DEAEC001C5269 /* ODIN.h */,
-				0F16AA71187DEAEC001C5269 /* ODIN.m */,
-			);
-			path = ODIN;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -349,16 +230,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F16AB73187DEAEC001C5269 /* NSData+MPBase64.m in Sources */,
-				0F16AB72187DEAEC001C5269 /* MPCSerializedJSONData.m in Sources */,
-				0F16AB75187DEAEC001C5269 /* Mixpanel.m in Sources */,
 				0F16AB9D187DF398001C5269 /* ExampleCollectionViewController.m in Sources */,
 				0F16A8DA187DE981001C5269 /* AppDelegate.m in Sources */,
-				0F16AB70187DEAEC001C5269 /* MPCJSONDataSerializer.m in Sources */,
 				0F16ABA0187DF398001C5269 /* WebViewController.m in Sources */,
-				0F16AB71187DEAEC001C5269 /* MPCJSONSerializer.m in Sources */,
 				0F16AB9F187DF398001C5269 /* RootViewController.m in Sources */,
-				0F16AB74187DEAEC001C5269 /* ODIN.m in Sources */,
 				0F16AB9E187DF398001C5269 /* StyleExamplesViewController.m in Sources */,
 				0F16AB9C187DF398001C5269 /* AllElementsViewController.m in Sources */,
 				0F16A8D6187DE981001C5269 /* main.m in Sources */,
