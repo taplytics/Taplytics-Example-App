@@ -2,7 +2,6 @@
 //  main.m
 //  Taplytics Example App
 //
-//  Created by Jonathan Norris on 1/8/2014.
 //  Copyright (c) 2014 Taplytics. All rights reserved.
 //
 
