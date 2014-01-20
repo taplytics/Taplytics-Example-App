@@ -18,11 +18,11 @@
     self.viewKey = @"ExampleCollectionViewController";
 }
 
-- (int)numberOfSectionsInCollectionView:(UICollectionView *)collectionView {
+- (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView {
     return 1;
 }
 
-- (int)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
+- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
     return 1000;
 }
 
@@ -31,7 +31,7 @@
                                                                            forIndexPath:indexPath];
     
     UILabel *label = (UILabel*)[cell viewWithTag:10];
-    label.text = [NSString stringWithFormat:@"%i", indexPath.row];
+    label.text = [NSString stringWithFormat:@"%li", (long)indexPath.row];
     return cell;
 }
 

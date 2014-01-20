@@ -46,6 +46,8 @@ typedef enum {
 - (void)performBackgroundFetch:(void(^)(UIBackgroundFetchResult))completionBlock;
 
 // Element Life Cycle Methods
+- (void)checkElementInit:(id<TLElementProtocol>)element;
+
 - (void)elementInit:(id<TLElementProtocol>)element;
 
 - (void)elementDealloc:(id<TLElementProtocol>)element;
@@ -60,6 +62,6 @@ typedef enum {
 // Setting ViewController Appearance
 - (void)setupViewController:(UIViewController*)vc forViewKey:(NSString*)viewKey;
 
-- (void)highlightElementforKey:(NSString*)elementKey styleKey:(NSString*)styleKey duration:(NSNumber*)duration;
+- (void)highlightElementforKey:(NSString*)elementKey styleKey:(NSString*)styleKey showBackground:(BOOL)showBackground duration:(NSNumber*)duration;
 
 @end

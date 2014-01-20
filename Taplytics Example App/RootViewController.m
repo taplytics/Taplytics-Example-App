@@ -11,7 +11,7 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    self.viewKey = @"TLExampleAppViewController";
+    self.viewKey = @"LPExampleAppViewController";
 }
 
 @end

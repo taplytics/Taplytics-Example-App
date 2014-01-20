@@ -7,7 +7,7 @@
 
 #import "AppDelegate.h"
 
-#define TAPLYTICS_TOKEN @"YOUR TAPLYTICS TOKEN"
+#define TAPLYTICS_TOKEN @"YOUR TOKEN HERE"
 
 @implementation AppDelegate
 
