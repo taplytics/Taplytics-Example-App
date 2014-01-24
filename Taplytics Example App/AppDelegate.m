@@ -7,12 +7,10 @@
 
 #import "AppDelegate.h"
 
-#define TAPLYTICS_TOKEN @"YOUR TOKEN HERE"
-
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
-    [TaplyticsManager startTaplyticsAPIKey:TAPLYTICS_TOKEN liveUpdate:YES];
+    [TaplyticsManager startTaplyticsAPIKey:@"YOUR TAPLYTICS API KEY"];
     
     return YES;
 }

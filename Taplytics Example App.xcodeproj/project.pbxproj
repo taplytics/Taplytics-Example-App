@@ -28,7 +28,7 @@
 		0F16AB9F187DF398001C5269 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F16AB99187DF398001C5269 /* RootViewController.m */; };
 		0F16ABA0187DF398001C5269 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F16AB9B187DF398001C5269 /* WebViewController.m */; };
 		0F16ABA4187DFC71001C5269 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F16ABA2187DFC71001C5269 /* Main.storyboard */; };
-		0FFABB39188DC92500D524BE /* Taplytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FFABB38188DC92500D524BE /* Taplytics.framework */; };
+		0FA14B6218926B7E00B8AE4F /* Taplytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FA14B6118926B7E00B8AE4F /* Taplytics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,7 +62,7 @@
 		0F16AB9A187DF398001C5269 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
 		0F16AB9B187DF398001C5269 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		0F16ABA3187DFC71001C5269 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0FFABB38188DC92500D524BE /* Taplytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Taplytics.framework; sourceTree = "<group>"; };
+		0FA14B6118926B7E00B8AE4F /* Taplytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Taplytics.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FFABB39188DC92500D524BE /* Taplytics.framework in Frameworks */,
+				0FA14B6218926B7E00B8AE4F /* Taplytics.framework in Frameworks */,
 				0F16AB86187DEC64001C5269 /* libz.dylib in Frameworks */,
 				0F16AB84187DEC5C001C5269 /* CoreData.framework in Frameworks */,
 				0F16A903187DE9AA001C5269 /* libicucore.dylib in Frameworks */,
@@ -108,7 +108,7 @@
 		0F16A8C8187DE981001C5269 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0FFABB38188DC92500D524BE /* Taplytics.framework */,
+				0FA14B6118926B7E00B8AE4F /* Taplytics.framework */,
 				0F16AB85187DEC64001C5269 /* libz.dylib */,
 				0F16AB83187DEC5C001C5269 /* CoreData.framework */,
 				0F16A902187DE9AA001C5269 /* libicucore.dylib */,
@@ -343,6 +343,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$SRCROOT\"/**",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Taplytics Example App/Taplytics Example App-Prefix.pch";
@@ -373,6 +374,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$SRCROOT\"/**",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Taplytics Example App/Taplytics Example App-Prefix.pch";
