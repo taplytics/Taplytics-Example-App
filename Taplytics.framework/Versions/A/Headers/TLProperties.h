@@ -24,6 +24,7 @@
 @property (nonatomic, readonly, strong) NSDictionary* releaseInfo;
 @property (nonatomic, readonly, strong) NSDictionary* analyticsSettings;
 @property (nonatomic, readonly, strong) NSDictionary* images;
+@property (nonatomic, readonly, strong) NSArray* experiments;
 @property (nonatomic, readonly, strong) NSString* themeName;
 
 - (id)initWithJSONDic:(NSDictionary*)dic;

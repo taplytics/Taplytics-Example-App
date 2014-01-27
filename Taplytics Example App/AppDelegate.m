@@ -10,13 +10,13 @@
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
-    [TaplyticsManager startTaplyticsAPIKey:@"YOUR TAPLYTICS API KEY"];
+    [TaplyticsManager startTaplyticsAPIKey:@"YOUR TAPLYTICS KEY"];
     
     return YES;
 }
 
 - (void)application:(UIApplication *)application performFetchWithCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler {
-    [[TaplyticsManager sharedManager] performBackgroundFetch:completionHandler];
+    [TaplyticsManager performBackgroundFetch:completionHandler];
 }
 
 @end
