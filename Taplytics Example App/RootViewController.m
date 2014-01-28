@@ -9,9 +9,4 @@
 
 @implementation RootViewController
 
-- (void)viewWillAppear:(BOOL)animated {
-    [super viewWillAppear:animated];
-    self.viewKey = @"LPExampleAppViewController";
-}
-
 @end

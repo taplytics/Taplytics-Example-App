@@ -22,7 +22,6 @@
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    self.viewKey = @"AllElementsViewController";
     _scrollView.contentSize = CGSizeMake(320.0, 970.0);
     [_pickerView selectRow:2 inComponent:0 animated:NO];
 }
@@ -32,7 +31,7 @@
                                                         message:@"This is a cool message"
                                                        delegate:nil
                                               cancelButtonTitle:@"No Dice."
-                                              otherButtonTitles:@"Ok", nil];
+                                              otherButtonTitles:@"OK", nil];
     alertView.elementKey = @"alertView";
     [self.view addSubview:alertView];
     [alertView show];

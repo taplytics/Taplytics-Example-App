@@ -14,10 +14,8 @@
 @implementation WebViewController
 
 - (void)viewWillAppear:(BOOL)animated {
-    [super viewWillAppear:animated];
-    self.viewKey = @"WebViewController";
-    
-    NSURL* url = [NSURL URLWithString:@"http://www.launchpad.io"];
+    [super viewWillAppear:animated];    
+    NSURL* url = [NSURL URLWithString:@"http://www.taplytics.com"];
     NSURLRequest* request = [NSURLRequest requestWithURL:url];
     [_webView loadRequest:request];
 }

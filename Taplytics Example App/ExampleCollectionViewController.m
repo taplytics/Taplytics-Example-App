@@ -13,11 +13,6 @@
 
 @implementation ExampleCollectionViewController
 
-- (void)viewWillAppear:(BOOL)animated {
-    [super viewWillAppear:animated];
-    self.viewKey = @"ExampleCollectionViewController";
-}
-
 - (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView {
     return 1;
 }

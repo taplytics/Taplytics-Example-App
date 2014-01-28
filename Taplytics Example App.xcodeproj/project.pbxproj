@@ -29,6 +29,7 @@
 		0F16AB9F187DF398001C5269 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F16AB99187DF398001C5269 /* RootViewController.m */; };
 		0F16ABA0187DF398001C5269 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F16AB9B187DF398001C5269 /* WebViewController.m */; };
 		0F16ABA4187DFC71001C5269 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F16ABA2187DFC71001C5269 /* Main.storyboard */; };
+		0F1853C61897A290009C90AC /* LaunchPad_Identity.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F1853C51897A290009C90AC /* LaunchPad_Identity.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +64,7 @@
 		0F16AB9A187DF398001C5269 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
 		0F16AB9B187DF398001C5269 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		0F16ABA3187DFC71001C5269 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0F1853C51897A290009C90AC /* LaunchPad_Identity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchPad_Identity.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +142,7 @@
 		0F16A8D0187DE981001C5269 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0F1853C51897A290009C90AC /* LaunchPad_Identity.png */,
 				0F16A8D1187DE981001C5269 /* Taplytics Example App-Info.plist */,
 				0F16A8D2187DE981001C5269 /* InfoPlist.strings */,
 				0F16A8D5187DE981001C5269 /* main.m */,
@@ -219,6 +222,7 @@
 			files = (
 				0F16ABA4187DFC71001C5269 /* Main.storyboard in Resources */,
 				0F16A8D4187DE981001C5269 /* InfoPlist.strings in Resources */,
+				0F1853C61897A290009C90AC /* LaunchPad_Identity.png in Resources */,
 				0F16A8DC187DE981001C5269 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

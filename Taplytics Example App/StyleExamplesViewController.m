@@ -13,9 +13,4 @@
 
 @implementation StyleExamplesViewController
 
-- (void)viewWillAppear:(BOOL)animated {
-    [super viewWillAppear:animated];
-    self.viewKey = @"StyleExamplesViewController";
-}
-
 @end
