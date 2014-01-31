@@ -32,7 +32,6 @@
                                                        delegate:nil
                                               cancelButtonTitle:@"No Dice."
                                               otherButtonTitles:@"OK", nil];
-    alertView.elementKey = @"alertView";
     [self.view addSubview:alertView];
     [alertView show];
 }
@@ -43,7 +42,6 @@
                                                     cancelButtonTitle:@"Not This Time!"
                                                destructiveButtonTitle:@"Destroy Me!"
                                                     otherButtonTitles:@"Button 1", @"Button 2", nil];
-    actionSheet.elementKey = @"actionSheet";
     [actionSheet showInView:self.view];
 }
 
