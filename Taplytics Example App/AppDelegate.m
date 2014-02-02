@@ -10,7 +10,7 @@
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
-    [TaplyticsManager startTaplyticsAPIKey:@"YOUR TAPLYTICS KEY"];
+    [TaplyticsManager startTaplyticsAPIKey:@"YOUR TAPLYTICS API KEY"];
     
     return YES;
 }

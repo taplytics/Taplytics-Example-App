@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0F0C6F9E18966C38008ADFF8 /* Taplytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F0C6F9D18966C38008ADFF8 /* Taplytics.framework */; };
 		0F16A8CA187DE981001C5269 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F16A8C9187DE981001C5269 /* Foundation.framework */; };
 		0F16A8CC187DE981001C5269 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F16A8CB187DE981001C5269 /* CoreGraphics.framework */; };
 		0F16A8CE187DE981001C5269 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F16A8CD187DE981001C5269 /* UIKit.framework */; };
@@ -30,10 +29,10 @@
 		0F16ABA0187DF398001C5269 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F16AB9B187DF398001C5269 /* WebViewController.m */; };
 		0F16ABA4187DFC71001C5269 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F16ABA2187DFC71001C5269 /* Main.storyboard */; };
 		0F1853C61897A290009C90AC /* LaunchPad_Identity.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F1853C51897A290009C90AC /* LaunchPad_Identity.png */; };
+		0FD92E32189DE1B60095259D /* Taplytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD92E31189DE1B60095259D /* Taplytics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0F0C6F9D18966C38008ADFF8 /* Taplytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Taplytics.framework; sourceTree = "<group>"; };
 		0F16A8C6187DE981001C5269 /* Taplytics Example App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Taplytics Example App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F16A8C9187DE981001C5269 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0F16A8CB187DE981001C5269 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -65,6 +64,7 @@
 		0F16AB9B187DF398001C5269 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		0F16ABA3187DFC71001C5269 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0F1853C51897A290009C90AC /* LaunchPad_Identity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchPad_Identity.png; sourceTree = "<group>"; };
+		0FD92E31189DE1B60095259D /* Taplytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Taplytics.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F0C6F9E18966C38008ADFF8 /* Taplytics.framework in Frameworks */,
+				0FD92E32189DE1B60095259D /* Taplytics.framework in Frameworks */,
 				0F16AB86187DEC64001C5269 /* libz.dylib in Frameworks */,
 				0F16AB84187DEC5C001C5269 /* CoreData.framework in Frameworks */,
 				0F16A903187DE9AA001C5269 /* libicucore.dylib in Frameworks */,
@@ -110,7 +110,7 @@
 		0F16A8C8187DE981001C5269 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0F0C6F9D18966C38008ADFF8 /* Taplytics.framework */,
+				0FD92E31189DE1B60095259D /* Taplytics.framework */,
 				0F16AB85187DEC64001C5269 /* libz.dylib */,
 				0F16AB83187DEC5C001C5269 /* CoreData.framework */,
 				0F16A902187DE9AA001C5269 /* libicucore.dylib */,
@@ -346,8 +346,9 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$SRCROOT\"/**",
+					"\\\"$SRCROOT\\\"/**",
 					"$(PROJECT_DIR)",
+					"/Users/jonathannorris/Dropbox/gitRepos/Taplytics-Example-App",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Taplytics Example App/Taplytics Example App-Prefix.pch";
@@ -377,8 +378,9 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$SRCROOT\"/**",
+					"\\\"$SRCROOT\\\"/**",
 					"$(PROJECT_DIR)",
+					"/Users/jonathannorris/Dropbox/gitRepos/Taplytics-Example-App",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Taplytics Example App/Taplytics Example App-Prefix.pch";
