@@ -17,7 +17,6 @@
 		0F16A8F9187DE98B001C5269 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F16A8F8187DE98B001C5269 /* CFNetwork.framework */; };
 		0F16A8FB187DE991001C5269 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F16A8FA187DE991001C5269 /* Security.framework */; };
 		0F16A8FD187DE998001C5269 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F16A8FC187DE998001C5269 /* CoreTelephony.framework */; };
-		0F16A8FF187DE99E001C5269 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F16A8FE187DE99E001C5269 /* AdSupport.framework */; };
 		0F16A901187DE9A4001C5269 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F16A900187DE9A4001C5269 /* SystemConfiguration.framework */; };
 		0F16A903187DE9AA001C5269 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F16A902187DE9AA001C5269 /* libicucore.dylib */; };
 		0F16AB84187DEC5C001C5269 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F16AB83187DEC5C001C5269 /* CoreData.framework */; };
@@ -29,7 +28,8 @@
 		0F16ABA0187DF398001C5269 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F16AB9B187DF398001C5269 /* WebViewController.m */; };
 		0F16ABA4187DFC71001C5269 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F16ABA2187DFC71001C5269 /* Main.storyboard */; };
 		0F1853C61897A290009C90AC /* LaunchPad_Identity.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F1853C51897A290009C90AC /* LaunchPad_Identity.png */; };
-		0FD92E32189DE1B60095259D /* Taplytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD92E31189DE1B60095259D /* Taplytics.framework */; };
+		0FA2EA5718A319C800E705D6 /* Taplytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FA2EA5618A319C800E705D6 /* Taplytics.framework */; };
+		0FD92E39189E26B30095259D /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F16A8FE187DE99E001C5269 /* AdSupport.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,7 +64,7 @@
 		0F16AB9B187DF398001C5269 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		0F16ABA3187DFC71001C5269 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0F1853C51897A290009C90AC /* LaunchPad_Identity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchPad_Identity.png; sourceTree = "<group>"; };
-		0FD92E31189DE1B60095259D /* Taplytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Taplytics.framework; sourceTree = "<group>"; };
+		0FA2EA5618A319C800E705D6 /* Taplytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Taplytics.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,12 +72,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FD92E32189DE1B60095259D /* Taplytics.framework in Frameworks */,
+				0FA2EA5718A319C800E705D6 /* Taplytics.framework in Frameworks */,
+				0FD92E39189E26B30095259D /* AdSupport.framework in Frameworks */,
 				0F16AB86187DEC64001C5269 /* libz.dylib in Frameworks */,
 				0F16AB84187DEC5C001C5269 /* CoreData.framework in Frameworks */,
 				0F16A903187DE9AA001C5269 /* libicucore.dylib in Frameworks */,
 				0F16A901187DE9A4001C5269 /* SystemConfiguration.framework in Frameworks */,
-				0F16A8FF187DE99E001C5269 /* AdSupport.framework in Frameworks */,
 				0F16A8FD187DE998001C5269 /* CoreTelephony.framework in Frameworks */,
 				0F16A8FB187DE991001C5269 /* Security.framework in Frameworks */,
 				0F16A8F9187DE98B001C5269 /* CFNetwork.framework in Frameworks */,
@@ -110,7 +110,7 @@
 		0F16A8C8187DE981001C5269 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0FD92E31189DE1B60095259D /* Taplytics.framework */,
+				0FA2EA5618A319C800E705D6 /* Taplytics.framework */,
 				0F16AB85187DEC64001C5269 /* libz.dylib */,
 				0F16AB83187DEC5C001C5269 /* CoreData.framework */,
 				0F16A902187DE9AA001C5269 /* libicucore.dylib */,
@@ -348,7 +348,6 @@
 					"$(inherited)",
 					"\\\"$SRCROOT\\\"/**",
 					"$(PROJECT_DIR)",
-					"/Users/jonathannorris/Dropbox/gitRepos/Taplytics-Example-App",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Taplytics Example App/Taplytics Example App-Prefix.pch";
@@ -380,7 +379,6 @@
 					"$(inherited)",
 					"\\\"$SRCROOT\\\"/**",
 					"$(PROJECT_DIR)",
-					"/Users/jonathannorris/Dropbox/gitRepos/Taplytics-Example-App",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Taplytics Example App/Taplytics Example App-Prefix.pch";

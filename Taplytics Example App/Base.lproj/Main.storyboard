@@ -184,30 +184,6 @@
             </objects>
             <point key="canvasLocation" x="-770" y="737"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="qu6-6P-BdJ">
-            <objects>
-                <viewController id="ID5-fY-hlQ" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="1hD-Gn-vJz">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="v3n-mp-gDU">
-                                <rect key="frame" x="0.0" y="480" width="320" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Test VC">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="IjC-om-1sO"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="4jq-EZ-oAo" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="499" y="388"/>
-        </scene>
         <!--Example Collection View Controller-->
         <scene sceneID="Ygt-Kh-vWV">
             <objects>
