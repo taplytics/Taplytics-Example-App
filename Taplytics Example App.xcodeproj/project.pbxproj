@@ -28,7 +28,7 @@
 		0F16ABA0187DF398001C5269 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F16AB9B187DF398001C5269 /* WebViewController.m */; };
 		0F16ABA4187DFC71001C5269 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F16ABA2187DFC71001C5269 /* Main.storyboard */; };
 		0F7DB7D91959CEE100AAE0CA /* taplytics-black-text-2048x2048.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F7DB7D81959CEE100AAE0CA /* taplytics-black-text-2048x2048.png */; };
-		0FA2EA5718A319C800E705D6 /* Taplytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FA2EA5618A319C800E705D6 /* Taplytics.framework */; };
+		0F7DB7DB195BA69D00AAE0CA /* Taplytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F7DB7DA195BA69D00AAE0CA /* Taplytics.framework */; };
 		0FD92E39189E26B30095259D /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F16A8FE187DE99E001C5269 /* AdSupport.framework */; };
 /* End PBXBuildFile section */
 
@@ -64,7 +64,7 @@
 		0F16AB9B187DF398001C5269 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		0F16ABA3187DFC71001C5269 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0F7DB7D81959CEE100AAE0CA /* taplytics-black-text-2048x2048.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "taplytics-black-text-2048x2048.png"; sourceTree = "<group>"; };
-		0FA2EA5618A319C800E705D6 /* Taplytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Taplytics.framework; sourceTree = "<group>"; };
+		0F7DB7DA195BA69D00AAE0CA /* Taplytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Taplytics.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FA2EA5718A319C800E705D6 /* Taplytics.framework in Frameworks */,
+				0F7DB7DB195BA69D00AAE0CA /* Taplytics.framework in Frameworks */,
 				0FD92E39189E26B30095259D /* AdSupport.framework in Frameworks */,
 				0F16AB86187DEC64001C5269 /* libz.dylib in Frameworks */,
 				0F16AB84187DEC5C001C5269 /* CoreData.framework in Frameworks */,
@@ -110,7 +110,7 @@
 		0F16A8C8187DE981001C5269 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0FA2EA5618A319C800E705D6 /* Taplytics.framework */,
+				0F7DB7DA195BA69D00AAE0CA /* Taplytics.framework */,
 				0F16AB85187DEC64001C5269 /* libz.dylib */,
 				0F16AB83187DEC5C001C5269 /* CoreData.framework */,
 				0F16A902187DE9AA001C5269 /* libicucore.dylib */,
@@ -196,6 +196,11 @@
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = Taplytics;
+				TargetAttributes = {
+					0F16A8C5187DE981001C5269 = {
+						DevelopmentTeam = JS66J7ZHQB;
+					};
+				};
 			};
 			buildConfigurationList = 0F16A8C1187DE981001C5269 /* Build configuration list for PBXProject "Taplytics Example App" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -344,6 +349,8 @@
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\\\"$SRCROOT\\\"/**",
@@ -364,6 +371,7 @@
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				VALID_ARCHS = "armv7 armv7s arm64";
 				WRAPPER_EXTENSION = app;
 			};
@@ -375,6 +383,8 @@
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\\\"$SRCROOT\\\"/**",
@@ -389,6 +399,7 @@
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				VALID_ARCHS = "armv7 armv7s arm64";
 				WRAPPER_EXTENSION = app;
 			};
