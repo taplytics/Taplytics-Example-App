@@ -23,7 +23,6 @@
 		0F16AB86187DEC64001C5269 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F16AB85187DEC64001C5269 /* libz.dylib */; };
 		0F16AB9C187DF398001C5269 /* AllElementsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F16AB93187DF398001C5269 /* AllElementsViewController.m */; };
 		0F16AB9D187DF398001C5269 /* ExampleCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F16AB95187DF398001C5269 /* ExampleCollectionViewController.m */; };
-		0F16AB9E187DF398001C5269 /* StyleExamplesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F16AB97187DF398001C5269 /* StyleExamplesViewController.m */; };
 		0F16AB9F187DF398001C5269 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F16AB99187DF398001C5269 /* RootViewController.m */; };
 		0F16ABA0187DF398001C5269 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F16AB9B187DF398001C5269 /* WebViewController.m */; };
 		0F16ABA4187DFC71001C5269 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F16ABA2187DFC71001C5269 /* Main.storyboard */; };
@@ -56,8 +55,6 @@
 		0F16AB93187DF398001C5269 /* AllElementsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllElementsViewController.m; sourceTree = "<group>"; };
 		0F16AB94187DF398001C5269 /* ExampleCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleCollectionViewController.h; sourceTree = "<group>"; };
 		0F16AB95187DF398001C5269 /* ExampleCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleCollectionViewController.m; sourceTree = "<group>"; };
-		0F16AB96187DF398001C5269 /* StyleExamplesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StyleExamplesViewController.h; sourceTree = "<group>"; };
-		0F16AB97187DF398001C5269 /* StyleExamplesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StyleExamplesViewController.m; sourceTree = "<group>"; };
 		0F16AB98187DF398001C5269 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		0F16AB99187DF398001C5269 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		0F16AB9A187DF398001C5269 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
@@ -158,8 +155,6 @@
 				0F16AB93187DF398001C5269 /* AllElementsViewController.m */,
 				0F16AB94187DF398001C5269 /* ExampleCollectionViewController.h */,
 				0F16AB95187DF398001C5269 /* ExampleCollectionViewController.m */,
-				0F16AB96187DF398001C5269 /* StyleExamplesViewController.h */,
-				0F16AB97187DF398001C5269 /* StyleExamplesViewController.m */,
 				0F16AB98187DF398001C5269 /* RootViewController.h */,
 				0F16AB99187DF398001C5269 /* RootViewController.m */,
 				0F16AB9A187DF398001C5269 /* WebViewController.h */,
@@ -243,7 +238,6 @@
 				0F16A8DA187DE981001C5269 /* AppDelegate.m in Sources */,
 				0F16ABA0187DF398001C5269 /* WebViewController.m in Sources */,
 				0F16AB9F187DF398001C5269 /* RootViewController.m in Sources */,
-				0F16AB9E187DF398001C5269 /* StyleExamplesViewController.m in Sources */,
 				0F16AB9C187DF398001C5269 /* AllElementsViewController.m in Sources */,
 				0F16A8D6187DE981001C5269 /* main.m in Sources */,
 			);
